@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carol Li Zhang</title>
+    <link rel="icon" href="data:,">
+
+    <!-- Bootstrap 4.2.1 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!-- jQuery and jQuery UI -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../static/main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+
+<body>
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container d-flex align-items-center">
+        <a class="navbar-brand mr-3" href="home.html">Carol Li Zhang</a>
+        <div class="d-flex">
+            <a class="nav-link pr-5" href="projects.html">Projects</a>
+            <a class="nav-link" href="about.html">About</a>
+        </div>
+    </div>
+
+    <div class="divider_line"></div>
+</nav>
+
+<!--
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="home.html">Carol Li Zhang</a>
+        <a class="navbar-brand ml-5" href="projects.html">Projects</a>
+        <a class="navbar-brand ml-5" href="about.html">About</a>
+    </div>
+
+    <div class="divider_line">
+    </div>
+</nav>
+
+-->
+
+<!-- Main Content -->
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+
+<!-- Bootstrap 4.2.1 JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
