@@ -1,8 +1,8 @@
 {
-  "name": "ui-ux_portfolio",
+  "name": "design_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://carolzhang010.github.io/UI-UX_Portfolio",
+  "homepage": "https://carolzhang010.github.io/Design_Portfolio",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
