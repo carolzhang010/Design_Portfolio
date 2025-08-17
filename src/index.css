@@ -1,6 +1,19 @@
 /* index.css */
 body {
   margin: 0;
-  font-family: 'Indie Flower', sans-serif;
-  background-color: #f7f7f7;
+  font-family: 'Poiret One', sans-serif;
+  background-color: #F9FBF2;
+}
+
+.tagline {
+  color: black;
+  font-size: 86px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.typewriter-container {
+  min-height: 5em;
+  display: inline-block;
 }

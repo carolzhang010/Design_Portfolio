@@ -6,16 +6,15 @@ export default function Navbar() {
       display: "flex",
       justifyContent: "space-between",
       alignItems: "center",
-      padding: "1rem 2rem",
-      borderBottom: "1px solid #333",
-      backgroundColor: "white"
+      padding: "2rem 2rem",
+      backgroundColor: "#DBE4EE"
     }}>
-      <div style={{ fontSize: "1.2rem" }}>Carol Li Zhang</div>
+      <div style={{ fontSize: "2.3rem" }}>Carol Li Zhang</div>
       <div>
-        <Link to="/projects" style={{ marginLeft: "2rem", textDecoration: "none", color: "black" }}>
+        <Link to="/projects" style={{ fontSize: "2.3rem", marginLeft: "2rem", textDecoration: "none", color: "black" }}>
           Projects
         </Link>
-        <Link to="/about" style={{ marginLeft: "2rem", textDecoration: "none", color: "black" }}>
+        <Link to="/about" style={{ fontSize: "2.3rem", marginLeft: "5rem", textDecoration: "none", color: "black" }}>
           About
         </Link>
       </div>

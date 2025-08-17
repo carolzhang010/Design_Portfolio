@@ -1,0 +1,20 @@
+.projectName{
+    color: #3E7CB1;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.projectDescriptionHeader{
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: -1rem;
+}
+
+.projectDescription{
+    font-size: 28px;
+    margin-top: -1rem;
+}
+
+.projectStats{
+   font-size: 36px;
+}
