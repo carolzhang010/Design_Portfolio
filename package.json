@@ -4,12 +4,11 @@
   "private": true,
   "homepage": "https://carolzhang010.github.io/Design_Portfolio",
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "aos": "^2.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.6.3",
     "react-scripts": "^5.0.1"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,5 +17,35 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
+  },
+  "description": "��#\u0000 \u0000U\u0000I\u0000/\u0000U\u0000X\u0000 \u0000P\u0000o\u0000r\u0000t\u0000f\u0000o\u0000l\u0000i\u0000o\u0000",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolzhang010/Design_Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carolzhang010/Design_Portfolio/issues"
   }
 }

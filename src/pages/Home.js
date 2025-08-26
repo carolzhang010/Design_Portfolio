@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "../styles/Home.css";
 import crackd1 from "../assets/crackd-homepage.png";
 import crackd2 from "../assets/crackdmultihumor.png";
 import crackd3 from "../assets/crackdLogoBlack.png";
+import nyu from "../assets/nyu.png";
+import alruwais from "../assets/alruwais-mockup.png";
+import consumerreports from "../assets/CR.png";
 
 const phrases = [
   'user interfaces',
@@ -226,14 +231,38 @@ function DISCINProjectImagesSection() {
   );
 }
 
+function UXResearchProjects() {
+  return (
+    <div>
+      <h1
+        className="projectName"
+        style={{ marginTop: 0, textAlign: "right" }}
+      >
+        User Focused Research and Design
+      </h1>
+
+      <div class="flex-row">
+        <img src={consumerreports} alt="Consumer Reports Logo" class="flex-image" />
+        <img src={nyu} alt="New York University Logo" class="flex-image" />
+        <img src={alruwais} alt="Al Ruwais Community Center Proposal Mockup1" class="flex-image" />
+      </div>
+    </div>
+  );
+}
 
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true });
+  }, []);
+
   return (
     <div>
       <Tagline />
 
       {/* The Humor Project */}
-      <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: -150 }}>
+      <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: -150 }}
+      data-aos="fade-up">
         <div style={{ flex: "0 0 48%" }}>
           <HumorProjectTextSection />
         </div>
@@ -244,7 +273,8 @@ export default function Home() {
       </div>
 
       {/* StarCode */}
-      <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}>
+      <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}
+      data-aos="fade-up">
         <div style={{ flex: "0 0 52%" }}>
           <StarCodeProjectImagesSection />
         </div>
@@ -254,8 +284,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* DISCIN*/}
-      <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}>
+      {/* DISCIN */}
+      <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}
+      data-aos="fade-up">
         <div style={{ flex: "0 0 48%" }}>
           <DISCINProjectTextSection />
         </div>
@@ -265,6 +296,11 @@ export default function Home() {
         </div>
       </div>
 
+      {/* User Focused Research and Design */}
+      <div style={{ marginTop: 200 }}
+      data-aos="fade-up">
+          <UXResearchProjects />
+      </div>
     </div>
   );
 }

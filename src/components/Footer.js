@@ -1,9 +1,34 @@
+import "../styles/Footer.css";
+
 export default function Footer() {
   return (
-    <footer>
-      <div>
-        Text
+    <footer className="footer">
+      <div className="footer-column-a">
+        <h3>Carol Li Zhang</h3>
+        <p>copyright</p>
+      </div>
+      <div className="footer-column-b">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/carol-li-zhang/">LinkedIn</a></li>
+          <li><a href="https://github.com/carolzhang010">GitHub</a></li>
+          <li><a href="clz2116@columbia.edu">Email</a></li>
+        </ul>
+      </div>
+      <div className="footer-column-c">
+        <h3>Projects</h3>
+        <ul>
+          <li><a href="#">The Humor Project</a></li>
+          <li><a href="#">StarCode</a></li>
+          <li><a href="#">DISCIN</a></li>
+          <li><a href="#">User-Focused Research</a></li>
+        </ul>
+      </div>
+      <div className="footer-column-d">
+        <h3>About</h3>
+        <a href="/resume.pdf" download> Resume </a>
       </div>
     </footer>
   );
 }
+
