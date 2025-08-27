@@ -19,5 +19,5 @@ shelf/
 #JetBrains IDE
 .idea/
 *.iml
-modules.xml
+.idea/modules.xml
 vcs.xml
