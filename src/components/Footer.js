@@ -1,11 +1,14 @@
 import "../styles/Footer.css";
+import headshot from "../assets/clz_headshot.png";
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-column-a">
-        <h3>Carol Li Zhang</h3>
-        <p>copyright</p>
+          <a href="/about" style={{ textDecoration: "none", color: "inherit" }}>
+            <h3>Carol Li Zhang</h3>
+            <img src={headshot} alt="Carol Li Zhang Headshot" />
+          </a>
       </div>
       <div className="footer-column-b">
         <h3>Contact</h3>

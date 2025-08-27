@@ -7,7 +7,8 @@ export default function Navbar() {
       justifyContent: "space-between",
       alignItems: "center",
       padding: "2rem 2rem",
-      backgroundColor: "#DBE4EE"
+      backgroundColor: "#DBE4EE",
+      borderBottom: "0.5px solid black"
     }}>
       <div style={{ fontSize: "2.3rem" }}>Carol Li Zhang</div>
       <div>
