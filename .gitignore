@@ -14,4 +14,10 @@
 .vscode
 .idea
 shelf/
-workspace.xml
+.idea/workspace.xml
+
+#JetBrains IDE
+.idea/
+*.iml
+modules.xml
+vcs.xml
