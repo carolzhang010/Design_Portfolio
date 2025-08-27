@@ -15,7 +15,7 @@ const phrases = [
   'website design',
 ];
 
-function Typewriter({ words, speed = 150, pause = 2000 }) {
+function Typewriter({ words, speed = 75, pause = 2000 }) {
   const [displayedText, setDisplayedText] = useState('');
   const [wordIndex, setWordIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
@@ -235,16 +235,23 @@ function UXResearchProjects() {
   return (
     <div>
       <h1
-        className="projectName"
+        className="researchHeader"
         style={{ marginTop: 0, textAlign: "right" }}
       >
         User Focused Research and Design
       </h1>
 
       <div class="flex-row">
-        <img src={consumerreports} alt="Consumer Reports Logo" class="flex-image" />
-        <img src={nyu} alt="New York University Logo" class="flex-image" />
-        <img src={alruwais} alt="Al Ruwais Community Center Proposal Mockup1" class="flex-image" />
+        <a href="/consumer-reports">
+          <img src={consumerreports} alt="Consumer Reports Logo" class="flex-image" />
+        </a>
+
+        <a href="/nyu-titleix">
+          <img src={nyu} alt="New York University Logo" class="flex-image" />
+        </a>
+        <a href="/alruwais">
+          <img src={alruwais} alt="Al Ruwais Community Center Proposal Mockup1" class="flex-image" />
+        </a>
       </div>
     </div>
   );

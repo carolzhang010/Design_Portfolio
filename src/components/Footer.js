@@ -21,15 +21,15 @@ export default function Footer() {
       <div className="footer-column-c">
         <h3>Projects</h3>
         <ul>
-          <li><a href="#">The Humor Project</a></li>
-          <li><a href="#">StarCode</a></li>
-          <li><a href="#">DISCIN</a></li>
-          <li><a href="#">User-Focused Research</a></li>
+          <li><a href="/the-humor-project">The Humor Project</a></li>
+          <li><a href="/starcode">StarCode</a></li>
+          <li><a href="/discin">DISCIN</a></li>
+          <li><a href="/user_research">User-Focused Research</a></li>
         </ul>
       </div>
       <div className="footer-column-d">
         <h3>About</h3>
-        <a href="/resume.pdf" download> Resume </a>
+        <a href="/Carol Li Zhang_Resume2025.pdf" download> Resume </a>
       </div>
     </footer>
   );

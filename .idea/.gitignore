@@ -1,0 +1,22 @@
+# Node modules and build output
+/node_modules/
+/.cache/
+/.next/
+/build/
+/dist/
+/out/
+
+# IDE/editor junk
+*.log
+*.tmp
+.DS_Store
+.env
+.vscode
+shelf/
+.idea/workspace.xml
+
+#JetBrains IDE
+.idea/
+*.iml
+modules.xml
+vcs.xml

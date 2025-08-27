@@ -19,6 +19,12 @@
    font-size: 36px;
 }
 
+.researchHeader{
+   color: #3E7CB1;
+   font-size: 52px;
+   margin-bottom: 3rem;
+}
+
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -31,6 +37,7 @@
     width: 320px;
     height: 305px;
     border-radius: 8px;
+    margin-bottom: 2rem;
     transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
                   box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }

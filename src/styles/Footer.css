@@ -47,6 +47,10 @@
   margin-left: 20px;
 }
 
+.footer-column-b{
+    margin-left: -2rem;
+}
+
 .footer-column-c{
     margin-left: 2rem;
 }
