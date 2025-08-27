@@ -21,8 +21,9 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Carol Li Zhang</div>
-
+      <Link to="/" className="homepage-link">
+          <div className="navbar-logo">Carol Li Zhang</div>
+      </Link>
       <div className="navbar-links">
         {/* Projects Dropdown */}
         <div className="dropdown" ref={dropdownRef}>

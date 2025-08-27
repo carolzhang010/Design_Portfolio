@@ -18,6 +18,11 @@
   position: relative;
 }
 
+.homepage-link{
+    text-decoration: none;
+    color: black;
+}
+
 /* Regular nav links */
 .navbar-link {
   font-size: 2.3rem;
