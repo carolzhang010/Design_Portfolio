@@ -1,10 +1,10 @@
 # Node modules and build output
-/node_modules
-/.cache
-/.next
-/build
-/dist
-/out
+/node_modules/
+/.cache/
+/.next/
+/build/
+/dist/
+/out/
 
 # IDE/editor junk
 *.log
@@ -12,7 +12,6 @@
 .DS_Store
 .env
 .vscode
-.idea
 shelf/
 .idea/workspace.xml
 
