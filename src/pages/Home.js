@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "../styles/Home.css";
+import "../styles/home/Home.css";
+import "../styles/home/HomeMobile.css";
+import "../styles/home/HomeDesktop.css";
 import crackd1 from "../assets/crackd-homepage.png";
 import crackd2 from "../assets/crackdmultihumor.png";
 import crackd3 from "../assets/crackdLogoBlack.png";
