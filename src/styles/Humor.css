@@ -1,10 +1,55 @@
-.projectName{
+.projectpageName{
     color: #3E7CB1;
     font-size: 96px;
     text-align: center;
 }
 
-.projectDescriptionHeader{
+.projectpageDescriptionHeader{
     font-size: 48px;
     text-align: center;
+}
+
+.descriptionText{
+    font-size: 30px;
+    text-align: center;
+}
+
+.sampleImagesRow{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sampleImage{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.buttonContainer{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.visitSiteButton{
+    width: 300px;
+    height: 80px;
+    background-color: #DBE4EE;
+    color: #3E7CB1;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.visitSiteButton:hover{
+    background-color: #BCD2EB;
 }

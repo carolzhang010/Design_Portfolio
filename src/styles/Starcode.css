@@ -1,10 +1,53 @@
-.projectName{
+.projectpageName{
     color: #3E7CB1;
     font-size: 96px;
     text-align: center;
 }
 
-.projectDescriptionHeader{
+.projectpageDescriptionHeader{
     font-size: 48px;
     text-align: center;
+}
+
+.projectIntro{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 4rem;
+}
+
+.timelineNav {
+  position: sticky;
+  top: 0;               /* sticks to top */
+  background: #D1CCDC;    /* avoid blending into content */
+  z-index: 1000;        /* stay above other elements */
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.timelineNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+
+.timelineItem {
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.timelineItem.active {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.timelineSection {
+  padding: 80px 20px; /* top/bottom padding, left/right padding */
+  min-height: 100vh;  /* optional: makes each section fill the viewport */
+  border-bottom: 1px solid #eee; /* optional: adds separation */
 }

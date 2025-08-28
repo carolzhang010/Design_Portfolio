@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-column-a">
-          <a href="/about" style={{ textDecoration: "none", color: "inherit" }}>
+          <a href="/Design_Portfolio/" style={{ textDecoration: "none", color: "inherit" }}>
             <h3>Carol Li Zhang</h3>
             <img src={headshot} alt="Carol Li Zhang Headshot" />
           </a>
@@ -21,10 +21,10 @@ export default function Footer() {
       <div className="footer-column-c">
         <h3>Projects</h3>
         <ul>
-          <li><a href="/the-humor-project">The Humor Project</a></li>
-          <li><a href="/starcode">StarCode</a></li>
-          <li><a href="/discin">DISCIN</a></li>
-          <li><a href="/user-research">User-Focused Research</a></li>
+          <li><a href="/Design_Portfolio/the-humor-project">The Humor Project</a></li>
+          <li><a href="/Design_Portfolio/starcode">StarCode</a></li>
+          <li><a href="/Design_Portfolio/discin">DISCIN</a></li>
+          <li><a href="/Design_Portfolio/user-research">User-Focused Research</a></li>
         </ul>
       </div>
       <div className="footer-column-d">

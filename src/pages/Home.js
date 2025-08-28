@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/home/Home.css";
@@ -80,8 +81,10 @@ function Tagline() {
 
 function HumorProjectTextSection() {
   return (
-    <div> {/* no maxWidth or negative margin here */}
+    <div>
+    <Link to="/the-humor-project" className="homepageProjectLink">
       <h1 className="projectName" style={{ marginTop: 0 }}>The Humor Project</h1>
+    </Link>
       <h2 className="projectDescriptionHeader">
         second mini header describing the project
       </h2>
@@ -101,7 +104,7 @@ function HumorProjectImagesSection() {
   return (
   <div>
     <h1 style={{ textAlign: "right", fontWeight: "normal"}}>
-    User-Interfaces & Web Design
+    Front-End Development & User-Interfaces
     </h1>
 
     <div style={{ position: "relative", width: "100%", height: 300, marginTop: 0}}>
@@ -133,7 +136,9 @@ function HumorProjectImagesSection() {
 function StarCodeProjectTextSection() {
   return (
     <div style={{ textAlign: "right" }}>
+    <Link to="/starcode" className="homepageProjectLink">
       <h1 className="projectName" style={{ marginTop: 0 }}>StarCode</h1>
+    </Link>
       <h2 className="projectDescriptionHeader">
         second mini header describing the project
       </h2>
@@ -184,7 +189,9 @@ function StarCodeProjectImagesSection() {
 function DISCINProjectTextSection() {
   return (
     <div>
-      <h1 className="projectName" style={{ marginTop: 0 }}>DISCIN</h1>
+      <Link to="/discin" className="homepageProjectLink">
+        <h1 className="projectName" style={{ marginTop: 0 }}>DISCIN</h1>
+      </Link>
       <h2 className="projectDescriptionHeader">
         second mini header describing the project
       </h2>
@@ -243,16 +250,16 @@ function UXResearchProjects() {
         User Focused Research and Design
       </h1>
 
-      <div class="flex-row">
+      <div className="flex-row">
         <a href="/consumer-reports">
-          <img src={consumerreports} alt="Consumer Reports Logo" class="flex-image" />
+          <img src={consumerreports} alt="Consumer Reports Logo" className="flex-image" />
         </a>
 
         <a href="/nyu-titleix">
-          <img src={nyu} alt="New York University Logo" class="flex-image" />
+          <img src={nyu} alt="New York University Logo" className="flex-image" />
         </a>
         <a href="/alruwais">
-          <img src={alruwais} alt="Al Ruwais Community Center Proposal Mockup1" class="flex-image" />
+          <img src={alruwais} alt="Al Ruwais Community Center Proposal Mockup1" className="flex-image" />
         </a>
       </div>
     </div>
@@ -270,40 +277,46 @@ export default function Home() {
       <Tagline />
 
       {/* The Humor Project */}
-      <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: -150 }}
-      data-aos="fade-up">
-        <div style={{ flex: "0 0 48%" }}>
-          <HumorProjectTextSection />
-        </div>
+      <Link to="/the-humor-project" className="homepageProjectLink">
+          <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: -150 }}
+          data-aos="fade-up">
+            <div style={{ flex: "0 0 48%" }}>
+              <HumorProjectTextSection />
+            </div>
 
-        <div style={{ flex: "0 0 52%", marginLeft: "auto" }}>
-          <HumorProjectImagesSection />
-        </div>
-      </div>
+            <div style={{ flex: "0 0 52%", marginLeft: "auto" }}>
+              <HumorProjectImagesSection />
+            </div>
+          </div>
+      </Link>
 
       {/* StarCode */}
-      <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}
-      data-aos="fade-up">
-        <div style={{ flex: "0 0 52%" }}>
-          <StarCodeProjectImagesSection />
-        </div>
+      <Link to="/starcode" className="homepageProjectLink">
+          <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}
+          data-aos="fade-up">
+            <div style={{ flex: "0 0 52%" }}>
+              <StarCodeProjectImagesSection />
+            </div>
 
-        <div style={{ flex: "0 0 48%", marginRight: "auto" }}>
-          <StarCodeProjectTextSection />
-        </div>
-      </div>
+            <div style={{ flex: "0 0 48%", marginRight: "auto" }}>
+              <StarCodeProjectTextSection />
+            </div>
+          </div>
+      </Link>
 
       {/* DISCIN */}
-      <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}
-      data-aos="fade-up">
-        <div style={{ flex: "0 0 48%" }}>
-          <DISCINProjectTextSection />
-        </div>
+      <Link to="/discin" className="homepageProjectLink">
+          <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}
+          data-aos="fade-up">
+            <div style={{ flex: "0 0 48%" }}>
+              <DISCINProjectTextSection />
+            </div>
 
-        <div style={{ flex: "0 0 52%", marginLeft: "auto" }}>
-          <DISCINProjectImagesSection />
-        </div>
-      </div>
+            <div style={{ flex: "0 0 52%", marginLeft: "auto" }}>
+              <DISCINProjectImagesSection />
+            </div>
+          </div>
+      </Link>
 
       {/* User Focused Research and Design */}
       <div style={{ marginTop: 200 }}

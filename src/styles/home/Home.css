@@ -15,6 +15,11 @@
     margin-top: -1rem;
 }
 
+.homepageProjectLink{
+    text-decoration: none;
+    color: black;
+}
+
 .projectStats{
    font-size: 36px;
 }
