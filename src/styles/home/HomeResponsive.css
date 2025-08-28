@@ -1,0 +1,19 @@
+/* mobile-first: show mobile layout, hide desktop sections by default */
+.mobile-only {
+  display: block;
+}
+
+.desktop-only {
+  display: none;
+}
+
+/* Desktop / larger screens (laptop/desktop) */
+@media screen and (min-width: 768px) {
+  .mobile-only {
+    display: none;  /* hide mobile layout */
+  }
+
+  .desktop-only {
+    display: block; /* show rest of homepage sections */
+  }
+}

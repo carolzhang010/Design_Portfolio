@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/home/Home.css";
-import "../styles/home/HomeMobile.css";
-import "../styles/home/HomeDesktop.css";
+import "../styles/home/HomeResponsive.css";
 import crackd1 from "../assets/crackd-homepage.png";
 import crackd2 from "../assets/crackdmultihumor.png";
 import crackd3 from "../assets/crackdLogoBlack.png";
@@ -266,6 +265,35 @@ function UXResearchProjects() {
   );
 }
 
+function HumorProjectMobileLayout() {
+  return (
+    <div>
+      <Tagline />
+
+      {/* The Humor Project */}
+      <Link to="/the-humor-project" className="homepageProjectLink">
+        <div
+          style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: -150 }}
+          data-aos="fade-up"
+        >
+          <div>
+            <h1 style={{ fontSize: "28px", marginLeft: "-5%", color: "#3E7CB1", fontWeight: "bold" }}>
+            The Humor Project
+            </h1>
+            <h2 style={{ fontSize: "18px", marginLeft: "-5%", fontWeight: "normal" }}>
+            Second mini header describing project
+            </h2>
+          </div>
+
+          <div style={{ }}>
+
+          </div>
+        </div>
+      </Link>
+    </div>
+  );
+}
+
 export default function Home() {
 
   useEffect(() => {
@@ -274,54 +302,61 @@ export default function Home() {
 
   return (
     <div>
-      <Tagline />
 
-      {/* The Humor Project */}
-      <Link to="/the-humor-project" className="homepageProjectLink">
+      {/* Mobile Layout */}
+      <div className="mobile-only">
+        <HumorProjectMobileLayout />
+      </div>
+
+      {/* Desktop / Tablet Layout */}
+      <div className="desktop-only">
+
+        <Tagline />
+
+        {/* The Humor Project */}
+        <Link to="/the-humor-project" className="homepageProjectLink">
           <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: -150 }}
-          data-aos="fade-up">
+               data-aos="fade-up">
             <div style={{ flex: "0 0 48%" }}>
               <HumorProjectTextSection />
             </div>
-
             <div style={{ flex: "0 0 52%", marginLeft: "auto" }}>
               <HumorProjectImagesSection />
             </div>
           </div>
-      </Link>
+        </Link>
 
-      {/* StarCode */}
-      <Link to="/starcode" className="homepageProjectLink">
+        {/* StarCode */}
+        <Link to="/starcode" className="homepageProjectLink">
           <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}
-          data-aos="fade-up">
+               data-aos="fade-up">
             <div style={{ flex: "0 0 52%" }}>
               <StarCodeProjectImagesSection />
             </div>
-
             <div style={{ flex: "0 0 48%", marginRight: "auto" }}>
               <StarCodeProjectTextSection />
             </div>
           </div>
-      </Link>
+        </Link>
 
-      {/* DISCIN */}
-      <Link to="/discin" className="homepageProjectLink">
+        {/* DISCIN */}
+        <Link to="/discin" className="homepageProjectLink">
           <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}
-          data-aos="fade-up">
+               data-aos="fade-up">
             <div style={{ flex: "0 0 48%" }}>
               <DISCINProjectTextSection />
             </div>
-
             <div style={{ flex: "0 0 52%", marginLeft: "auto" }}>
               <DISCINProjectImagesSection />
             </div>
           </div>
-      </Link>
+        </Link>
 
-      {/* User Focused Research and Design */}
-      <div style={{ marginTop: 200 }}
-      data-aos="fade-up">
+        {/* User Focused Research */}
+        <div style={{ marginTop: 200 }} data-aos="fade-up">
           <UXResearchProjects />
+        </div>
+
       </div>
     </div>
   );

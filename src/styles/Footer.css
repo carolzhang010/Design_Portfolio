@@ -59,3 +59,46 @@
     margin-right: 7rem;
     font-size: 20px;
 }
+
+/* Mobile layout */
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: row; /* stack columns vertically */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 20px;
+    text-align: left;
+  }
+
+  /* Only show name and projects */
+  .footer-column-b,
+  .footer-column-d {
+    display: none;
+  }
+
+  .footer-column-a,
+  .footer-column-c {
+    margin: 8px 10px; /* spacing between remaining columns */
+    flex: none;
+  }
+
+  /* Shrink image */
+  .footer-column-a img {
+    width: 150px;
+    height: auto;
+    margin-top: -15px;
+    margin-left: -5px;
+  }
+
+  /* Shrink text */
+  .footer-column-a h3,
+  .footer-column-c h3 {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  .footer-column-c ul li {
+    font-size: 12px;
+    margin: 8px 0;
+  }
+}
