@@ -13,7 +13,6 @@ import UserResearch from "./pages/UserResearch";
 function App() {
   return (
     <Router basename="/Design_Portfolio">
-      {/* 👇 Runs on every route change */}
       <ScrollToTop />
 
       <Layout>
