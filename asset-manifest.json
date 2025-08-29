@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Design_Portfolio/static/css/main.df36c135.css",
+    "main.js": "/Design_Portfolio/static/js/main.7574b976.js",
+    "static/media/alruwais-mockup.png": "/Design_Portfolio/static/media/alruwais-mockup.9db8637f3835b95c1471.png",
+    "static/media/clz_headshot.png": "/Design_Portfolio/static/media/clz_headshot.83c64e07b3b57b4e6546.png",
+    "static/media/crackd-homepage.png": "/Design_Portfolio/static/media/crackd-homepage.48c4cd63d00a0e1c869e.png",
+    "static/media/crackdmultihumor.png": "/Design_Portfolio/static/media/crackdmultihumor.bfac32947f967c4bf1d8.png",
+    "static/media/nyu.png": "/Design_Portfolio/static/media/nyu.c7de9e8abf3706352dc6.png",
+    "static/media/crackdLogoBlack.png": "/Design_Portfolio/static/media/crackdLogoBlack.c2be27f1ef3c2a364123.png",
+    "static/media/CR.png": "/Design_Portfolio/static/media/CR.08f66d72f654c87bb831.png",
+    "index.html": "/Design_Portfolio/index.html",
+    "main.df36c135.css.map": "/Design_Portfolio/static/css/main.df36c135.css.map",
+    "main.7574b976.js.map": "/Design_Portfolio/static/js/main.7574b976.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df36c135.css",
+    "static/js/main.7574b976.js"
+  ]
+}
