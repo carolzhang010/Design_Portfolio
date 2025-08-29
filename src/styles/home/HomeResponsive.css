@@ -17,3 +17,20 @@
     display: block; /* show rest of homepage sections */
   }
 }
+
+.flex-row-mobile{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-image-mobile{
+    width: 100px;
+    height: 95px;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+                  box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}

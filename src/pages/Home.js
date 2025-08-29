@@ -10,6 +10,8 @@ import crackd3 from "../assets/crackdLogoBlack.png";
 import nyu from "../assets/nyu.png";
 import alruwais from "../assets/alruwais-mockup.png";
 import consumerreports from "../assets/CR.png";
+import { HumorProjectMobileLayout, StarcodeProjectMobileLayout,
+DiscinProjectMobileLayout, UXResearchProjectsMobile } from "../pages/HomeMobile";
 
 const phrases = [
   'user interfaces',
@@ -62,7 +64,7 @@ function Typewriter({ words, speed = 75, pause = 2000 }) {
   return <span>{displayedText}</span>;
 }
 
-function Tagline() {
+export function Tagline() {
   return (
     <div>
       <h1 className="tagline">
@@ -265,35 +267,6 @@ function UXResearchProjects() {
   );
 }
 
-function HumorProjectMobileLayout() {
-  return (
-    <div>
-      <Tagline />
-
-      {/* The Humor Project */}
-      <Link to="/the-humor-project" className="homepageProjectLink">
-        <div
-          style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: -150 }}
-          data-aos="fade-up"
-        >
-          <div>
-            <h1 style={{ fontSize: "28px", marginLeft: "-5%", color: "#3E7CB1", fontWeight: "bold" }}>
-            The Humor Project
-            </h1>
-            <h2 style={{ fontSize: "18px", marginLeft: "-5%", fontWeight: "normal" }}>
-            Second mini header describing project
-            </h2>
-          </div>
-
-          <div style={{ }}>
-
-          </div>
-        </div>
-      </Link>
-    </div>
-  );
-}
-
 export default function Home() {
 
   useEffect(() => {
@@ -305,7 +278,19 @@ export default function Home() {
 
       {/* Mobile Layout */}
       <div className="mobile-only">
+        <div style={{ marginBottom: "300px" }} >
         <HumorProjectMobileLayout />
+        </div>
+        <div style={{ marginTop: "100px", marginBottom: "300px" }} >
+        <StarcodeProjectMobileLayout />
+        </div>
+        <div style={{ marginTop: "100px", marginBottom: "175px" }} >
+        <DiscinProjectMobileLayout />
+        </div>
+        <div style={{marginBottom: "-20%"}}>
+        <UXResearchProjectsMobile />
+        </div>
+
       </div>
 
       {/* Desktop / Tablet Layout */}
