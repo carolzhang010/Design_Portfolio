@@ -53,3 +53,13 @@
 .visitSiteButton:hover{
     background-color: #BCD2EB;
 }
+
+.sectionHeader{
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.sectionDescription{
+    margin-top: 20px;
+    font-size: 24px;
+}

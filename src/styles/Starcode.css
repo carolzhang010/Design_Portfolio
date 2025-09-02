@@ -15,6 +15,10 @@
     margin-bottom: 4rem;
 }
 
+.buttonContainer{
+    margin-bottom: 50px;
+}
+
 .timelineNav {
   position: sticky;
   top: 0;               /* sticks to top */
@@ -50,4 +54,11 @@
   padding: 80px 20px; /* top/bottom padding, left/right padding */
   min-height: 100vh;  /* optional: makes each section fill the viewport */
   border-bottom: 1px solid #eee; /* optional: adds separation */
+}
+
+.projectDetails{
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+  margin-bottom: 50px;
 }

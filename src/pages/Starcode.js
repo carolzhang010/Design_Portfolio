@@ -147,18 +147,15 @@ export default function Starcode() {
       <DescriptionText />
       <SampleImages />
 
+      <p className="projectDetails">
+        Designed and Implemented with Figma and Webflow
+      </p>
+
       <div className="buttonContainer">
         <button onClick={handleClick} className="visitSiteButton">
           Visit Website
         </button>
       </div>
-
-      <p className="projectIntro">
-        text text text text text text text text text text text text text text text text <br />
-        text text text text text text text text text text text text text text text text <br />
-        text text text text text text text text text text text text text text text text <br />
-        text text text text text text text text text text text text text text text text <br />
-      </p>
 
       <Timeline activeSection={activeSection} scrollTo={scrollTo} />
 

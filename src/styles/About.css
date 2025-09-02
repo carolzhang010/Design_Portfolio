@@ -1,0 +1,55 @@
+.hello{
+    font-size: 96px;
+    color: #3E7CB1;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 2%;
+}
+
+.headshot{
+    margin-top: -20%;
+    margin-left: 10%;
+}
+
+.about-description{
+    font-size: 30px;
+    margin-top: -5%;
+}
+
+.textLogo{
+    font-weight: normal;
+    margin-top: 10px;
+    line-height: 0.7;
+}
+
+.textLogoNumber{
+    font-size: 76px;
+}
+
+.textLogoWords{
+    font-size: 16px;
+    line-height: 0.1;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px; /* spacing between items */
+  justify-items: center; /* center icons horizontally */
+  align-items: center;   /* center icons vertically */
+}
+
+.icon-grid img {
+  width: 120px;
+  height: 120px;
+}
+
+.trait{
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: -2%;
+}
+
+.trait-description{
+    font-size: 28px;
+}
