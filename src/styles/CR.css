@@ -1,0 +1,80 @@
+.projectpageName{
+    color: #3E7CB1;
+    font-size: 96px;
+    text-align: center;
+}
+
+.projectpageDescriptionHeader{
+    font-size: 48px;
+    text-align: center;
+}
+
+.projectIntro{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 4rem;
+}
+
+.buttonContainer{
+    margin-bottom: 80px;
+}
+
+.timelineNav {
+  position: sticky;
+  top: 0;               /* sticks to top */
+  background: #D1CCDC;    /* avoid blending into content */
+  z-index: 1000;        /* stay above other elements */
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.timelineNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+
+.timelineItem {
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: color 0.3s;
+}
+
+.timelineItem.active {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.timelineSection {
+  padding: 2rem 2rem;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.timelineSection + .timelineSection {
+  margin-top: 1rem;        /* controlled spacing between sections */
+}
+
+.projectDetails{
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+  margin-bottom: 50px;
+}
+
+.sectionQuotes {
+  font-size: 1.5rem;
+  margin: 2rem 0 0.75rem;
+}
+
+.sectionHeader{
+    font-weight: bold;
+    font-size: 32px;
+    color: #3E7CB1;
+}

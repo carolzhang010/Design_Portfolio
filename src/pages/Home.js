@@ -7,6 +7,9 @@ import "../styles/home/HomeResponsive.css";
 import crackd1 from "../assets/crackd-homepage.png";
 import crackd2 from "../assets/crackdmultihumor.png";
 import crackd3 from "../assets/crackdLogoBlack.png";
+import starcode1 from "../assets/StarcodeLogo.png";
+import starcode2 from "../assets/mockup-team.png";
+import starcode3 from "../assets/homepage-half.png";
 import nyu from "../assets/nyu.png";
 import alruwais from "../assets/alruwais-mockup.png";
 import consumerreports from "../assets/CR.png";
@@ -87,16 +90,20 @@ function HumorProjectTextSection() {
       <h1 className="projectName" style={{ marginTop: 0 }}>The Humor Project</h1>
     </Link>
       <h2 className="projectDescriptionHeader">
-        second mini header describing the project
+        Designing Front-End Interfaces for AI Humor
       </h2>
       <p className="projectDescription">
-        description description description description
-        description description description description
-        description description description description
+        As a front-end developer for Sparkling Javascript Inc.,
+        I built an interactive web experience that utilizes artificial intelligence
+        to generate personalized jokes from images. I improved interfaces by creating
+        UI mockups that guided the development of responsive layouts and the corporate
+        website, which I implemented using React and Next.js to seamlessly integrate
+        the backend AI with the front-end UI.
+
       </p>
-      <p className="projectStats" style={{wordSpacing: "60px" }}>
-        %STATS% %STATS% %STATS%
-      </p>
+    <Link to="/the-humor-project">
+      <button className="learnMoreButton">Learn More</button>
+    </Link>
     </div>
   );
 }
@@ -126,7 +133,7 @@ function HumorProjectImagesSection() {
       <img
         src={crackd3}
         alt="Crackd Logo"
-        style={{ position: "absolute", bottom: -20, left: 50, width: 180,
+        style={{ position: "absolute", bottom: -20, left: 80, width: 180,
         height: "auto", zIndex: 3, transform: "scale(1.75)" }}
       />
     </div>
@@ -141,16 +148,20 @@ function StarCodeProjectTextSection() {
       <h1 className="projectName" style={{ marginTop: 0 }}>StarCode</h1>
     </Link>
       <h2 className="projectDescriptionHeader">
-        second mini header describing the project
+        Redesigning for Improved Usability
       </h2>
       <p className="projectDescription">
-        description description description description
-        description description description description
-        description description description description
+        As the lead web designer and developer for StarCode,
+        a German nonprofit focused on bridging the gender gap in tech,
+        I redesigned the organization’s website to improve usability and communication.
+        I created UI mockups that guided interface development, collaborated with the
+        Outreach team to ensure brand consistency, and conducted user interviews to
+        ensure the site effectively conveyed the nonprofit’s mission to
+        students, parents, and donors.
       </p>
-      <p className="projectStats" style={{wordSpacing: "60px" }}>
-        %STATS% %STATS% %STATS%
-      </p>
+      <Link to="/starcode">
+        <button className="learnMoreButton">Learn More</button>
+      </Link>
     </div>
   );
 }
@@ -163,27 +174,26 @@ function StarCodeProjectImagesSection() {
     </h1>
 
     <div style={{ position: "relative", width: "100%", height: 300, marginTop: 0}}>
-
       <img
-        src={crackd1}
-        alt="Corporate Site Homepage"
-        style={{ position: "absolute", top: -10, left: 0, right: 20, width: "65%",
-        height: "auto", zIndex: 1, transform: "scale(0.9)"}}
+        src={starcode3}
+        alt="Teampage Mockup"
+        style={{ position: "absolute", top: 180, left: -80, width: "65%",
+        height: "auto", zIndex: 3, transform: "scale(0.7)"  }}
       />
       <img
-        src={crackd2}
-        alt="Webpage Mockup"
-        style={{ position: "absolute", top: 70, left: 212, width: "80%",
-        height: "auto", zIndex: 2, transform: "scale(0.7)"  }}
+        src={starcode2}
+        alt="Teampage Mockup"
+        style={{ position: "absolute", top: -80, left: 230, width: "70%",
+        height: "auto", zIndex: 3, transform: "scale(0.7)"  }}
       />
       <img
-        src={crackd3}
-        alt="Crackd Logo"
-        style={{ position: "absolute", bottom: -20, left: 50, width: 180,
-        height: "auto", zIndex: 3, transform: "scale(1.75)" }}
+        src={starcode1}
+        alt="StarCode Logo"
+        style={{ position: "absolute", top: 50, left: 50, width: 150,
+        height: "auto", zIndex: 1, transform: "scale(1.75)" }}
       />
     </div>
-    </div>
+  </div>
   );
 }
 
@@ -194,16 +204,21 @@ function DISCINProjectTextSection() {
         <h1 className="projectName" style={{ marginTop: 0 }}>DISCIN</h1>
       </Link>
       <h2 className="projectDescriptionHeader">
-        second mini header describing the project
+        Improving UI/UX to Enhance Player Experience
       </h2>
       <p className="projectDescription">
-        description description description description
-        description description description description
-        description description description description
+        This project involved designing and prototyping intuitive user
+        interfaces for DISCIN: VR Disc Golf, a virtual reality game
+        by Prefab Cat Studios. I developed over 15 different UI
+        screens to create smoother, more accessible interactions that
+        would reduce player confusion. A multitude of user research,
+        playtesting, and competitor analyses were conducted to
+        inform iterative improvements, resulting in clearer menus
+        and streamlined gameplay flow.
       </p>
-      <p className="projectStats" style={{wordSpacing: "60px" }}>
-        %STATS% %STATS% %STATS%
-      </p>
+      <Link to="/discin">
+        <button className="learnMoreButton">Learn More</button>
+      </Link>
     </div>
   );
 }
@@ -248,20 +263,21 @@ function UXResearchProjects() {
         className="researchHeader"
         style={{ marginTop: 0, textAlign: "right" }}
       >
-        User Focused Research and Design
+        Human-Centered Research and Design
       </h1>
 
       <div className="flex-row">
-        <a href="/consumer-reports">
+        <Link to="/consumer-reports">
           <img src={consumerreports} alt="Consumer Reports Logo" className="flex-image" />
-        </a>
+        </Link>
 
-        <a href="/nyu-titleix">
+        <Link to="/nyu-titleix">
           <img src={nyu} alt="New York University Logo" className="flex-image" />
-        </a>
-        <a href="/alruwais">
+        </Link>
+
+        <Link to="/alruwais">
           <img src={alruwais} alt="Al Ruwais Community Center Proposal Mockup1" className="flex-image" />
-        </a>
+        </Link>
       </div>
     </div>
   );
@@ -302,7 +318,7 @@ export default function Home() {
         <Link to="/the-humor-project" className="homepageProjectLink">
           <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: -150 }}
                data-aos="fade-up">
-            <div style={{ flex: "0 0 48%" }}>
+            <div style={{ flex: "0 0 45%" }}>
               <HumorProjectTextSection />
             </div>
             <div style={{ flex: "0 0 52%", marginLeft: "auto" }}>
@@ -318,7 +334,7 @@ export default function Home() {
             <div style={{ flex: "0 0 52%" }}>
               <StarCodeProjectImagesSection />
             </div>
-            <div style={{ flex: "0 0 48%", marginRight: "auto" }}>
+            <div style={{ flex: "0 0 45%", marginRight: "auto" }}>
               <StarCodeProjectTextSection />
             </div>
           </div>
@@ -328,7 +344,7 @@ export default function Home() {
         <Link to="/discin" className="homepageProjectLink">
           <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}
                data-aos="fade-up">
-            <div style={{ flex: "0 0 48%" }}>
+            <div style={{ flex: "0 0 45%" }}>
               <DISCINProjectTextSection />
             </div>
             <div style={{ flex: "0 0 52%", marginLeft: "auto" }}>

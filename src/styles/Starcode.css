@@ -16,7 +16,7 @@
 }
 
 .buttonContainer{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .timelineNav {
@@ -42,7 +42,7 @@
 .timelineItem {
   cursor: pointer;
   padding: 5px 10px;
-  transition: color 0.3s, border-bottom 0.3s;
+  transition: color 0.3s;
 }
 
 .timelineItem.active {
@@ -51,9 +51,14 @@
 }
 
 .timelineSection {
-  padding: 80px 20px; /* top/bottom padding, left/right padding */
-  min-height: 100vh;  /* optional: makes each section fill the viewport */
-  border-bottom: 1px solid #eee; /* optional: adds separation */
+  padding: 2rem 2rem;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.timelineSection + .timelineSection {
+  margin-top: 1rem;        /* controlled spacing between sections */
 }
 
 .projectDetails{
@@ -61,4 +66,15 @@
   margin: 0 auto;
   width: fit-content;
   margin-bottom: 50px;
+}
+
+.sectionQuotes {
+  font-size: 1.5rem;
+  margin: 2rem 0 0.75rem;
+}
+
+.sectionHeader{
+    font-weight: bold;
+    font-size: 32px;
+    color: #3E7CB1;
 }

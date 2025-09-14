@@ -7,12 +7,12 @@ import consumerreports from "../assets/CR.png";
 function DescriptionText() {
   return (
     <p className="descriptionText">
-      text text text text text text text text text text text text text text text <br />
-      text text text text text text text text text text text text text text text <br />
-      text text text text text text text text text text text text text text text <br />
-      text text text text text text text text text text text text text text text <br />
-      text text text text text text text text text text text text text text text <br />
-      text text text text text text text text text text text text text text text <br />
+        For Prefab Cat Studios’ VR game DISCIN: VR Disc Golf,
+        I worked as the lead VR UI/UX designer, focusing on creating a
+        seamless, intuitive, and accessible interface for both VR/Disc Golf
+        novices and experienced players. The goal was to design an immersive
+        experience that made DISCIN easy to learn and play while enhancing overall
+        user engagement.
     </p>
   );
 }
@@ -30,7 +30,7 @@ function SampleImages() {
 }
 
 function handleClick() {
-  window.open("https://sparklingjavascript.com/", "_blank");
+  window.open("https://www.discinvr.com/", "_blank");
 }
 
 function Timeline({ activeSection, scrollTo }) {
@@ -153,11 +153,13 @@ export default function Starcode() {
         </button>
       </div>
 
-      <p className="projectIntro">
-        text text text text text text text text text text text text text text text text <br />
-        text text text text text text text text text text text text text text text text <br />
-        text text text text text text text text text text text text text text text text <br />
-        text text text text text text text text text text text text text text text text <br />
+      <p className="descriptionText">
+        This project involved designing and prototyping over 15 UI screens,
+        conducting user playtests and interviews, and analyzing competitor VR interfaces
+        to guide design decisions. Through iterative design and careful attention to menu
+        flow, navigation, and accessibility, the final interfaces significantly reduced user
+        confusion and improved task completion times, resulting in a smoother, more
+        engaging gameplay experience.
       </p>
 
       <Timeline activeSection={activeSection} scrollTo={scrollTo} />

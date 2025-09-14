@@ -5,14 +5,19 @@
 }
 
 .projectDescriptionHeader{
-    font-size: 32px;
-    font-weight: normal;
+    font-size: 28px;
+    font-weight: bold;
     margin-top: -1rem;
+    margin-bottom: 3rem;
 }
 
 .projectDescription{
-    font-size: 28px;
+    font-size: 25px;
     margin-top: -1rem;
+    width: 550px;
+    line-height: 1.3;
+    word-spacing: -2px;
+    text-align: justify;
 }
 
 .homepageProjectLink{
@@ -51,5 +56,21 @@
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   z-index: 10;
+}
+
+.learnMoreButton {
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.learnMoreButton:hover {
+  background-color: #0056b3;
 }
 
