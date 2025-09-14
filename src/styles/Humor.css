@@ -12,6 +12,11 @@
 .descriptionText{
     font-size: 30px;
     text-align: center;
+    width: 1000px;
+    line-height: 1.3;
+    word-spacing: -2px;
+    text-align: justify;
+    margin: 0 auto 40px auto;
 }
 
 .sampleImagesRow{
@@ -55,11 +60,16 @@
 }
 
 .sectionHeader{
-    font-weight: normal;
+    font-weight: bold;
     font-size: 32px;
+    color: #3E7CB1;
 }
 
 .sectionDescription{
+    width: 550px;
+    line-height: 1.3;
+    word-spacing: -2px;
+    text-align: justify;
     margin-top: 20px;
     font-size: 24px;
 }
