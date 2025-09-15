@@ -59,18 +59,20 @@
 }
 
 .learnMoreButton {
-  margin-top: 16px;
-  padding: 10px 20px;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.2s;
+    width: 110px;
+    height: 50px;
+    background-color: #DBE4EE;
+    color: #3E7CB1;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 
 .learnMoreButton:hover {
-  background-color: #0056b3;
+  background-color: #BCD2EB;
 }
 

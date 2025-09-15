@@ -15,6 +15,23 @@
     margin-bottom: 4rem;
 }
 
+.sampleImagesRowDiscin{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sampleImageDiscin{
+    width: 650px;
+    height: 350px;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+}
+
 .timelineNav {
   position: sticky;
   top: 0;
@@ -47,7 +64,6 @@
 }
 
 .timelineSection {
-  padding: 80px 20px; /* top/bottom padding, left/right padding */
-  min-height: 100vh;  /* optional: makes each section fill the viewport */
-  border-bottom: 1px solid #eee; /* optional: adds separation */
+  padding: 80px 20px;
+  min-height: 100vh;
 }

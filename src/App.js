@@ -7,7 +7,6 @@ import Contact from "./pages/Contact";
 import Discin from "./pages/Discin";
 import Humor from "./pages/Humor";
 import Starcode from "./pages/Starcode";
-import UserResearch from "./pages/UserResearch";
 import TitleIX from "./pages/TitleIX";
 import CR from "./pages/CR";
 import AlRuwais from "./pages/AlRuwais"
@@ -25,7 +24,6 @@ function App() {
           <Route path="/discin" element={<Discin />} />
           <Route path="/the-humor-project" element={<Humor />} />
           <Route path="/starcode" element={<Starcode />} />
-          <Route path="/user-research" element={<UserResearch />} />
           <Route path="/consumer-reports" element={<CR />} />
           <Route path="/nyu-titleix" element={<TitleIX />} />
           <Route path="/alruwais" element={<AlRuwais />} />

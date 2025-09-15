@@ -23,40 +23,69 @@ export default function About() {
             />
           </div>
 
-          <div style={{ width: "60%", padding: "20px" }}>
+          <div style={{ width: "60%", padding: "20px", textAlign: "justify" }}>
             <p className="about-description">
-            text text text text text text text text text text text text text <br/>
-            text text text text text text text text text text text text text <br/>
-            text text text text text text text text text text text text text <br/>
-            text text text text text text text text text text text text text <br/>
-            text text text text text text text text text text text text text <br/>
-            text text text text text text text text text text text text text <br/>
+            I design digital experiences, interfaces, and products that feel more human.
+            As a front-end developer and UI/UX designer with a background in computer science,
+            interactive media, and business, I enjoy creating intuitive and impactful experiences
+            that help people interact, learn, and connect with the world.
+
+            <div style={{ height: 40 }} />
+
+            Combining human-centered design with technical expertise to solve real-world problems is what drives me.
+
             </p>
 
             <div style={{ display: "flex", gap: "65px", marginTop: "20px" }}>
+              <div className="tooltip">
                 <img src={nyushlogo} alt="NYU Shanghai Logo"
-                style={{ width: "120px", height: "120px"}}
+                  style={{ width: "120px", height: "120px"}}
                 />
+                <span className="tooltip-text">
+                I earned my bachelor's degree in Interactive Media and Business in 2023 from NYU Shanghai
+                </span>
+              </div>
 
+              <div className="tooltip">
                 <img src={columbialogo} alt="Columbia Logo"
-                style={{ width: "120px", height: "120px", objectFit: "cover"}}
+                  style={{ width: "120px", height: "120px", objectFit: "cover"}}
                 />
+                <span className="tooltip-text">
+                In 2023, I joined Columbia University’s CS@CU MS Bridge Program
+                in Computer Science, building on my UI/UX foundation and gaining
+                coding skills for more technical roles
+                </span>
+              </div>
 
+              <div className="tooltip">
                 <h1 className="textLogo" style={{ width: "120px", height: "120px"}} >
-                <span className="textLogoNumber"> 3+ </span>
-                <br />
-                <span className="textLogoWords"> years of design experience </span>
+                  <span className="textLogoNumber">3+</span>
+                  <br />
+                  <span className="textLogoWords">years of design experience</span>
                 </h1>
+                <span className="tooltip-text">With 3+ years of design experience,
+                I bring both technical expertise and a human-centered perspective
+                to all of my projects
+                </span>
+              </div>
 
+              <div className="tooltip">
                 <img src={devtoolLogos} alt="Design & Development Tools"
-                style={{ width: "120px", height: "120px"}}
+                  style={{ width: "120px", height: "120px"}}
                 />
+                <span className="tooltip-text">
+                My expertise spans both technical and design tools,
+                from coding platforms like Github, React, and Next.js, to
+                design and prototyping tools such as Figma
+                </span>
+              </div>
             </div>
           </div>
         </div>
 
+{/*
         <div style={{ marginBottom: "15%" }}>
-            <h1 style={{ fontWeight: "normal", marginTop: "-10%", fontSize: "48px" }}>
+            <h1 style={{ fontWeight: "normal", fontSize: "48px" }}>
             A little more about myself<span style={{ letterSpacing: "4px" }}>...</span>
             </h1>
 
@@ -85,7 +114,7 @@ export default function About() {
               </div>
             </div>
         </div>
-
+*/}
     </div>
   );
 }

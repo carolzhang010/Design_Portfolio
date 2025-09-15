@@ -68,6 +68,21 @@ function Timeline({ activeSection, scrollTo }) {
         >
           Design
         </li>
+
+        {/*
+        <li
+          className={`timelineItem ${activeSection === "implementation" ? "active" : ""}`}
+          onClick={() => scrollTo("implementation")}
+        >
+          Implementation
+        </li>
+        <li
+          className={`timelineItem ${activeSection === "testing" ? "active" : ""}`}
+          onClick={() => scrollTo("testing")}
+        >
+          Testing
+        </li>
+        */}
       </ul>
     </nav>
   );
@@ -77,7 +92,7 @@ function Timeline({ activeSection, scrollTo }) {
 function ResearchSectionText() {
   return (
     <div data-aos="fade-up">
-      <h2 className="sectionHeader">
+      <h2 className="sectionHeader" data-aos="fade-up">
         Research
       </h2>
       <p className="sectionDescription">
@@ -105,7 +120,7 @@ function ResearchSectionImages() {
         src={starcode3}
         alt="UI Flow Chart"
         style={{ position: "absolute", top: 100, left: 30, right: 20, width: "100%",
-        height: "110%", zIndex: 1, transform: "scale(1.05)", overflow: "hidden"}}
+        height: "110%", zIndex: 1, transform: "scale(1.1)", overflow: "hidden"}}
       />
     </div>
     </div>
@@ -121,7 +136,10 @@ function ResearchSection() {
       style={{ marginTop: "0" }}
       data-aos="fade-up"
     >
-      <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem" }} data-aos="fade-up" >
+      <div
+        style={{ display: "flex", alignItems: "flex-start", gap: "1rem" }}
+        data-aos="fade-up"
+      >
         <div style={{ flex: "0 0 50%" }}>
           <ResearchSectionText />
         </div>
@@ -185,7 +203,7 @@ function ResearchSection() {
       </div>
 
       <div style={{ display: "flex", justifyContent: "center", gap: "2%" }}>
-        <img    
+        <img
           src={inspo1}
           alt="Center for Democracy & Technology Homepage"
           style={{
@@ -325,6 +343,159 @@ function DesignSection() {
   );
 }
 
+// Implementation Section
+function ImplementationSection() {
+  return (
+    <section id="implementation" className="timelineSection" data-aos="fade-up">
+        <h2 className="sectionHeader">
+          Implementation
+        </h2>
+
+        {/* Section 1 */}
+        <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", margin: "5% 0"}}>
+          <img
+            src={nyu}
+            alt="Corporate Site Homepage"
+            style={{
+              width: "10%",
+              height: "auto",
+              flex: "0 0 25%",
+              objectFit: "cover",
+            }}
+          />
+
+          < SectionText />
+        </div>
+
+        {/* Section 2 */}
+        <div style={{ display: "flex", alignItems: "flex-right", gap: "1rem", margin: "5% 0"}}>
+            < SectionText />
+
+             <img
+               src={nyu}
+               alt="Corporate Site Homepage"
+               style={{
+                 width: "10%",
+                 height: "auto",
+                 flex: "0 0 25%",
+                 objectFit: "cover",
+               }}
+             />
+        </div>
+
+        {/* Section 3 */}
+        <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", margin: "5% 0"}}>
+          <img
+            src={nyu}
+            alt="Corporate Site Homepage"
+            style={{
+              width: "10%",
+              height: "auto",
+              flex: "0 0 25%",
+              objectFit: "cover",
+            }}
+          />
+
+          < SectionText />
+        </div>
+    </section>
+  );
+}
+
+//Testing Section Functions
+function SectionText() {
+    return (
+      <p className="sectionDescription" style={{ flex: "1" }} data-aos="fade-up" >
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+        description description description description
+      </p>
+    );
+}
+
+function TestingSectionImages(){
+    return(
+        <div style={{ display: "flex", justifyContent: "space-between", gap: "1rem" }}
+        data-aos="fade-up">
+//            <div>
+//              <img src={nyu} alt="mockup 1" style={{ width: "100%" }} />
+//              <p style={{ textAlign: "center" }}> caption caption caption </p>
+//            </div>
+//            <div>
+//              <img src={nyu} alt="mockup 1" style={{ width: "100%" }} />
+//              <p style={{ textAlign: "center" }}> caption caption caption </p>
+//            </div>
+//            <div>
+//              <img src={nyu} alt="mockup 1" style={{ width: "100%" }} />
+//              <p style={{ textAlign: "center" }}> caption caption caption </p>
+//            </div>
+//            <div>
+//              <img src={nyu} alt="mockup 1" style={{ width: "100%" }} />
+//              <p style={{ textAlign: "center" }}> caption caption caption </p>
+//            </div>
+        </div>
+    );
+}
+
+// Testing Section
+function TestingSection() {
+  return (
+    <section id="testing" className="timelineSection" data-aos="fade-up">
+      <h2 className="sectionHeader">
+        Testing
+      </h2>
+      <p className="sectionDescription">
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+      </p>
+
+      <TestingSectionImages />
+
+      <p className="sectionDescription">
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+          description description description description
+      </p>
+
+       <div style={{ display: "flex", justifyContent: "space-between", gap: "1rem" }}>
+         <img src={nyu} alt="mockup 1" style={{ width: "33%" }} />
+         <img src={nyu} alt="mockup 2" style={{ width: "33%" }} />
+         <img src={nyu} alt="mockup 3" style={{ width: "33%" }} />
+       </div>
+
+    </section>
+  );
+}
+
 export default function Starcode() {
   const [activeSection, setActiveSection] = useState("research");
 
@@ -335,7 +506,6 @@ export default function Starcode() {
       (entries) => {
         let visible = entries.filter((entry) => entry.isIntersecting);
         if (visible.length > 0) {
-          // pick the one with the highest intersectionRatio
           let mostVisible = visible.reduce((prev, curr) =>
             curr.intersectionRatio > prev.intersectionRatio ? curr : prev
           );
@@ -344,7 +514,7 @@ export default function Starcode() {
       },
       {
         root: null,
-        threshold: Array.from({ length: 11 }, (_, i) => i * 0.1), // 0, 0.1, 0.2 ... 1
+        threshold: [0.25, 0.5, 0.75],
       }
     );
 
@@ -363,11 +533,23 @@ export default function Starcode() {
       <p className="projectpageDescriptionHeader">User-Interfaces & Web Design</p>
 
       <DescriptionText />
+      {/* <SampleImages />
+
+      <p className="projectDetails">Designed and Implemented with Figma and Webflow</p>
+
+      <div className="buttonContainer">
+        <button onClick={handleClick} className="visitSiteButton">
+          Visit Website
+        </button>
+      </div> */}
 
       <Timeline activeSection={activeSection} scrollTo={scrollTo} />
 
       <ResearchSection />
       <DesignSection />
+
+      {/* <ImplementationSection />
+      <TestingSection /> */}
 
       <h1 className="underConstruction" style={{ marginTop: 100, textAlign: "center" }}>
         This project is being built right now - check back soon!

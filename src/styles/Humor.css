@@ -19,7 +19,7 @@
     margin: 0 auto 40px auto;
 }
 
-.sampleImagesRow{
+.sampleImagesRowHumor{
     display: flex;
     flex-direction: row;
     gap: 100px;
@@ -27,8 +27,8 @@
     align-items: center;
 }
 
-.sampleImage{
-    width: 300px;
+.sampleImageHumor{
+    width: 500px;
     height: 300px;
     border-radius: 8px;
     margin-bottom: 2rem;

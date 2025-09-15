@@ -4,12 +4,16 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/home/Home.css";
 import "../styles/home/HomeResponsive.css";
-import crackd1 from "../assets/crackd-homepage.png";
-import crackd2 from "../assets/crackdmultihumor.png";
-import crackd3 from "../assets/crackdLogoBlack.png";
-import starcode1 from "../assets/StarcodeLogo.png";
-import starcode2 from "../assets/mockup-team.png";
-import starcode3 from "../assets/homepage-half.png";
+import crackd1 from "../assets/Crackd/crackd-homepage.png";
+import crackd2 from "../assets/Crackd/crackdmultihumor.png";
+import crackd3 from "../assets/Crackd/crackdLogoBlack.png";
+import starcode1 from "../assets/Starcode/StarcodeLogo.png";
+import starcode2 from "../assets/Starcode/mockup-team.png";
+import starcode3 from "../assets/Starcode/homepage-half.png";
+import discin1 from "../assets/DISCIN/DISCIN_Mockup1.jpg";
+import discin2 from "../assets/DISCIN/DISCIN_Mockup2.jpg";
+import discin3 from "../assets/DISCIN/DISCIN_Mockup3.jpg";
+import discin4 from "../assets/DISCIN/DISCINLogo.png";
 import nyu from "../assets/nyu.png";
 import alruwais from "../assets/alruwais-mockup.png";
 import consumerreports from "../assets/CR.png";
@@ -86,9 +90,7 @@ export function Tagline() {
 function HumorProjectTextSection() {
   return (
     <div>
-    <Link to="/the-humor-project" className="homepageProjectLink">
       <h1 className="projectName" style={{ marginTop: 0 }}>The Humor Project</h1>
-    </Link>
       <h2 className="projectDescriptionHeader">
         Designing Front-End Interfaces for AI Humor
       </h2>
@@ -144,9 +146,7 @@ function HumorProjectImagesSection() {
 function StarCodeProjectTextSection() {
   return (
     <div style={{ textAlign: "right" }}>
-    <Link to="/starcode" className="homepageProjectLink">
       <h1 className="projectName" style={{ marginTop: 0 }}>StarCode</h1>
-    </Link>
       <h2 className="projectDescriptionHeader">
         Redesigning for Improved Usability
       </h2>
@@ -160,7 +160,7 @@ function StarCodeProjectTextSection() {
         students, parents, and donors.
       </p>
       <Link to="/starcode">
-        <button className="learnMoreButton">Learn More</button>
+        <button className="learnMoreButton" >Learn More</button>
       </Link>
     </div>
   );
@@ -200,9 +200,7 @@ function StarCodeProjectImagesSection() {
 function DISCINProjectTextSection() {
   return (
     <div>
-      <Link to="/discin" className="homepageProjectLink">
-        <h1 className="projectName" style={{ marginTop: 0 }}>DISCIN</h1>
-      </Link>
+      <h1 className="projectName" style={{ marginTop: 0 }}>DISCIN</h1>
       <h2 className="projectDescriptionHeader">
         Improving UI/UX to Enhance Player Experience
       </h2>
@@ -234,23 +232,23 @@ function DISCINProjectImagesSection() {
 
       {/* Overlapping images */}
       <img
-        src={crackd1}
-        alt="Corporate Site Homepage"
-        style={{ position: "absolute", top: -10, left: 0, right: 20, width: "65%",
-        height: "auto", zIndex: 1, transform: "scale(0.9)"}}
+        src={discin1}
+        alt="Mockup1"
+        style={{ position: "absolute", left: 0, right: 50, width: "55%",
+        height: "auto", zIndex: 2, transform: "scale(0.9)"}}
       />
       <img
-        src={crackd2}
-        alt="Webpage Mockup"
-        style={{ position: "absolute", top: 70, left: 212, width: "80%",
-        height: "auto", zIndex: 2, transform: "scale(0.7)"  }}
+        src={discin2}
+        alt="Mockup3"
+        style={{ position: "absolute", top: 150, left: 275, width: "70%",
+        height: "auto", zIndex: 1, transform: "scale(0.7)"  }}
       />
-      <img
-        src={crackd3}
-        alt="Crackd Logo"
-        style={{ position: "absolute", bottom: -20, left: 50, width: 180,
-        height: "auto", zIndex: 3, transform: "scale(1.75)" }}
-      />
+    <img
+      src={discin4}
+      alt="Discin Logo"
+      style={{ position: "absolute", top: 85, right: 80, width: 100,
+      height: "auto", zIndex: 1, transform: "scale(2.5)" }}
+    />
     </div>
     </div>
   );
@@ -315,7 +313,6 @@ export default function Home() {
         <Tagline />
 
         {/* The Humor Project */}
-        <Link to="/the-humor-project" className="homepageProjectLink">
           <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: -150 }}
                data-aos="fade-up">
             <div style={{ flex: "0 0 45%" }}>
@@ -325,10 +322,8 @@ export default function Home() {
               <HumorProjectImagesSection />
             </div>
           </div>
-        </Link>
 
         {/* StarCode */}
-        <Link to="/starcode" className="homepageProjectLink">
           <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}
                data-aos="fade-up">
             <div style={{ flex: "0 0 52%" }}>
@@ -338,10 +333,8 @@ export default function Home() {
               <StarCodeProjectTextSection />
             </div>
           </div>
-        </Link>
 
         {/* DISCIN */}
-        <Link to="/discin" className="homepageProjectLink">
           <div style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginTop: 200 }}
                data-aos="fade-up">
             <div style={{ flex: "0 0 45%" }}>
@@ -351,12 +344,12 @@ export default function Home() {
               <DISCINProjectImagesSection />
             </div>
           </div>
-        </Link>
 
-        {/* User Focused Research */}
+        {/* User Focused Research
         <div style={{ marginTop: 200 }} data-aos="fade-up">
           <UXResearchProjects />
         </div>
+        */}
 
       </div>
     </div>

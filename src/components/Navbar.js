@@ -75,9 +75,11 @@ function MobileNavbar() {
             <Link to="/the-humor-project" onClick={() => setMobileMenuOpen(false)} style={{ textDecoration: "none", color: "black" }}>The Humor Project</Link>
             <Link to="/starcode" onClick={() => setMobileMenuOpen(false)} style={{ textDecoration: "none", color: "black" }}>StarCode</Link>
             <Link to="/discin" onClick={() => setMobileMenuOpen(false)} style={{ textDecoration: "none", color: "black" }}>DISCIN</Link>
+            {/*
             <Link to="/consumer-reports" onClick={() => setMobileMenuOpen(false)} style={{ textDecoration: "none", color: "black" }}>Consumer Reports</Link>
             <Link to="/nyu-titleix" onClick={() => setMobileMenuOpen(false)} style={{ textDecoration: "none", color: "black" }}>NYU Title IX</Link>
             <Link to="/alruwais" onClick={() => setMobileMenuOpen(false)} style={{ textDecoration: "none", color: "black" }}>Al Ruwais</Link>
+            */}
           </div>
         )}
 
@@ -140,9 +142,11 @@ export default function Navbar() {
               <Link to="/the-humor-project" className="dropdown-item" onClick={() => setIsOpen(false)}>The Humor Project</Link>
               <Link to="/starcode" className="dropdown-item" onClick={() => setIsOpen(false)}>StarCode</Link>
               <Link to="/discin" className="dropdown-item" onClick={() => setIsOpen(false)}>DISCIN</Link>
+              {/*
               <Link to="/consumer-reports" className="dropdown-item" onClick={() => setIsOpen(false)}>Consumer Reports</Link>
               <Link to="/nyu-titleix" className="dropdown-item" onClick={() => setIsOpen(false)}>NYU Title IX</Link>
               <Link to="/alruwais" className="dropdown-item" onClick={() => setIsOpen(false)}>Al Ruwais</Link>
+              */}
             </div>
           )}
         </div>

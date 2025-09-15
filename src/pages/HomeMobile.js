@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Tagline } from "./Home.js";
-import crackd1 from "../assets/crackd-homepage.png";
-import crackd2 from "../assets/crackdmultihumor.png";
-import crackd3 from "../assets/crackdLogoBlack.png";
+import crackd1 from "../assets/Crackd/crackd-homepage.png";
+import crackd2 from "../assets/Crackd/crackdmultihumor.png";
+import crackd3 from "../assets/Crackd/crackdLogoBlack.png";
 import nyu from "../assets/nyu.png";
 import alruwais from "../assets/alruwais-mockup.png";
 import consumerreports from "../assets/CR.png";

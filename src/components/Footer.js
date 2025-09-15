@@ -24,7 +24,9 @@ export default function Footer() {
           <li><a href="/Design_Portfolio/the-humor-project">The Humor Project</a></li>
           <li><a href="/Design_Portfolio/starcode">StarCode</a></li>
           <li><a href="/Design_Portfolio/discin">DISCIN</a></li>
+          {/*
           <li><a href="/Design_Portfolio/user-research">User-Focused Research</a></li>
+          */}
         </ul>
       </div>
       <div className="footer-column-d">

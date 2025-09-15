@@ -15,6 +15,23 @@
     margin-bottom: 4rem;
 }
 
+.sampleImagesRowStarcode{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sampleImageStarcode{
+    width: 650px;
+    height: 350px;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+}
+
 .buttonContainer{
     margin-bottom: 80px;
 }
@@ -58,7 +75,7 @@
 }
 
 .timelineSection + .timelineSection {
-  margin-top: 1rem;        /* controlled spacing between sections */
+  margin-top: 1rem;
 }
 
 .projectDetails{
@@ -69,8 +86,9 @@
 }
 
 .sectionQuotes {
-  font-size: 1.5rem;
   margin: 2rem 0 0.75rem;
+  font-weight: bold;
+  margin-bottom: 5%;
 }
 
 .sectionHeader{

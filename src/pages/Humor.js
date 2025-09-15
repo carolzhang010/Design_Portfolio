@@ -3,9 +3,14 @@ import "aos/dist/aos.css";
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import "../styles/Humor.css";
-import nyu from "../assets/nyu.png";
-import alruwais from "../assets/alruwais-mockup.png";
-import consumerreports from "../assets/CR.png";
+import image1 from "../assets/Crackd/crackd-productpage.png";
+import image2 from "../assets/Crackd/mockup3.png";
+import image3 from "../assets/Crackd/mockup2.png";
+import image4 from "../assets/Crackd/mockup4.png";
+import image5 from "../assets/Crackd/mockup5.png";
+import image6 from "../assets/Crackd/crackd-homepage.png";
+import image7 from "../assets/Crackd/multihumorintropage.png";
+import image8 from "../assets/Crackd/FAQpage.png";
 
 function DescriptionText() {
   return (
@@ -23,10 +28,9 @@ function DescriptionText() {
 function SampleImages() {
   return (
     <div>
-      <div className="sampleImagesRow">
-        <img src={consumerreports} alt="Consumer Reports Logo" className="sampleImage" />
-        <img src={nyu} alt="New York University Logo" className="sampleImage" />
-        <img src={alruwais} alt="Al Ruwais Community Center Proposal Mockup1" className="sampleImage" />
+      <div className="sampleImagesRowHumor">
+        <img src={image2} alt="" className="sampleImageHumor" />
+        <img src={image1} alt="" className="sampleImageHumor" />
       </div>
     </div>
   );
@@ -64,28 +68,27 @@ function UIDesignSectionImages() {
 
       {/* Overlapping images */}
       <img
-        src={nyu}
-        alt="Corporate Site Homepage"
-        style={{ position: "absolute", top: 20, left: 0, right: 20, width: "45%",
-        height: "50%", zIndex: 1, transform: "scale(1)"}}
+        src={image3}
+        alt="Cancel Caption Generation Mockup"
+        style={{ position: "absolute", top: -60, left: 0, right: 20, width: "45%",
+        height: "162%", zIndex: 1, transform: "scale(.7)"}}
       />
       <img
-        src={nyu}
-        alt="Webpage Mockup"
-        style={{ position: "absolute", top: 20, left: 350, width: "45%",
-        height: "50%", zIndex: 1, transform: "scale(1)"  }}
+        src={image4}
+        alt="Slider Bar Mockup"
+        style={{ position: "absolute", top: 20, left: 300, width: "50%",
+        height: "50%", zIndex: 1, transform: "scale(1.1)"  }}
       />
       <img
-        src={nyu}
-        alt="Webpage Mockup"
-        style={{ position: "absolute", top: "60%", width: "101%",
-        height: "50%", zIndex: 1, transform: "scale(1)"  }}
+        src={image5}
+        alt="Dropdown Menu Mockup"
+        style={{ position: "absolute", top: "65%", width: "50%", left: 300,
+        height: "50%", zIndex: 1, transform: "scale(1.1)"  }}
       />
     </div>
     </div>
   );
 }
-
 
 function CrossTeamCollaboration() {
   return (
@@ -139,22 +142,22 @@ function DesignImplementationSectionImages() {
 
       {/* Overlapping images */}
       <img
-        src={nyu}
+        src={image6}
         alt="Corporate Site Homepage"
-        style={{ position: "absolute", top: 20, left: 0, right: 20, width: "45%",
-        height: "50%", zIndex: 1, transform: "scale(1)"}}
+        style={{ position: "absolute", top: -10, left: 0, right: 20, width: "45%",
+        height: "60%", zIndex: 1, transform: "scale(1)"}}
       />
       <img
-        src={nyu}
+        src={image8}
         alt="Webpage Mockup"
-        style={{ position: "absolute", top: 20, left: 350, width: "45%",
-        height: "50%", zIndex: 1, transform: "scale(1)"  }}
+        style={{ position: "absolute", top: -10, left: 290, width: "55%",
+        height: "60%", zIndex: 1, transform: "scale(1)"  }}
       />
       <img
-        src={nyu}
+        src={image7}
         alt="Webpage Mockup"
         style={{ position: "absolute", top: "60%", width: "101%",
-        height: "50%", zIndex: 1, transform: "scale(1)"  }}
+        height: "110%", zIndex: 1, transform: "scale(1)"  }}
       />
     </div>
     </div>
@@ -201,6 +204,10 @@ export default function Humor() {
 
       <DescriptionText />
       <SampleImages />
+
+    <p className="projectDetails">
+      Designed and Implemented with Next.js and React
+    </p>
 
     <div className="buttonContainer">
       <button onClick={handleClick} className="visitSiteButton">
