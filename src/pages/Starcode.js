@@ -130,34 +130,28 @@ function ResearchSection() {
         </div>
       </div>
 
-      <p
-        className="sectionQuotes"
-        style={{ fontWeight: "bold", marginBottom: "10%", fontSize: 30 }}
-      >
-        "Right now, the website content is rather simplistic [and] doesn't convey who Starcode is"
-      </p>
-      <p
-        className="sectionQuotes"
-        style={{
-          textAlign: "right",
-          fontWeight: "bold",
-          marginBottom: "10%",
-          fontSize: 30,
-        }}
-      >
-        "The currrent website was a temporary creation...[so] it's prone to breaking"
-      </p>
-      <p
-        className="sectionQuotes"
-        style={{ marginBottom: "5%", fontWeight: "bold", fontSize: 30 }}
-      >
-        "The website lacks visual clarity for the eye...the footer is ugly... the colors are confusing"
-      </p>
+      <div className="quotesRow">
+        <p className="sectionQuotes quoteBox">
+          "Right now, the website content is rather simplistic [and] doesn't convey who Starcode is"
+          <div style={{ height: 30 }} />
+          <span style={{ marginLeft: 80 }}> -StarCode Employee </span>
+        </p>
+        <p className="sectionQuotes quoteBox">
+          "The currrent website was a temporary creation...[so] it's prone to breaking"
+          <div style={{ height: 30 }} />
+          <span style={{ marginLeft: 60 }}> -StarCode's Head of IT </span>
+        </p>
+        <p className="sectionQuotes quoteBox">
+          "The website lacks visual clarity for the eye...the footer is ugly... the colors are confusing"
+          <div style={{ height: 30 }} />
+          <span style={{ marginLeft: 40 }}> -StarCode's Outreach Lead </span>
+        </p>
+      </div>
 
       <div
         className="sectionDescription"
         style={{
-          marginTop: 0,
+          marginTop: 100,
           marginRight: "auto",
           marginBottom: 40,
           marginLeft: "auto",
