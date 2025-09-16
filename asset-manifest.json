@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Design_Portfolio/static/css/main.51eda5f3.css",
-    "main.js": "/Design_Portfolio/static/js/main.1ff56b1e.js",
+    "main.js": "/Design_Portfolio/static/js/main.b05d82b6.js",
     "static/media/alruwais-mockup.png": "/Design_Portfolio/static/media/alruwais-mockup.9db8637f3835b95c1471.png",
     "static/media/mockup4.png": "/Design_Portfolio/static/media/mockup4.991f84f5813a32b66a37.png",
     "static/media/mockup3.png": "/Design_Portfolio/static/media/mockup3.30e64d361d14d5759872.png",
@@ -61,10 +61,10 @@
     "static/media/StarcodeLogo.png": "/Design_Portfolio/static/media/StarcodeLogo.da1f26472e0bbb182766.png",
     "index.html": "/Design_Portfolio/index.html",
     "main.51eda5f3.css.map": "/Design_Portfolio/static/css/main.51eda5f3.css.map",
-    "main.1ff56b1e.js.map": "/Design_Portfolio/static/js/main.1ff56b1e.js.map"
+    "main.b05d82b6.js.map": "/Design_Portfolio/static/js/main.b05d82b6.js.map"
   },
   "entrypoints": [
     "static/css/main.51eda5f3.css",
-    "static/js/main.1ff56b1e.js"
+    "static/js/main.b05d82b6.js"
   ]
 }
