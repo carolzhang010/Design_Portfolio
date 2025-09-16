@@ -43,7 +43,7 @@ export default function Footer() {
 
       <div className="footer-column-d">
         <h3>About</h3>
-        <a href="/Carol_Li_Zhang_Resume2025.pdf" target="_blank" rel="noopener noreferrer" >
+        <a href="/Design_Portfolio/Carol_Li_Zhang_Resume2025.pdf" target="_blank" rel="noopener noreferrer" >
         Resume
         </a>
       </div>
