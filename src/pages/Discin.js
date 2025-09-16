@@ -22,6 +22,12 @@ import original2 from "../assets/DISCIN/original-2.png";
 import original4 from "../assets/DISCIN/original-4.png";
 import original5 from "../assets/DISCIN/original-5.png";
 import original6 from "../assets/DISCIN/original-6.png";
+import new1 from "../assets/DISCIN/new-1.png";
+import new2 from "../assets/DISCIN/new-2.png";
+import new3 from "../assets/DISCIN/new-3.png";
+import new4 from "../assets/DISCIN/new-4.png";
+import new5 from "../assets/DISCIN/new-5.png";
+import new6 from "../assets/DISCIN/new-6.png";
 
 function DescriptionText() {
   return (
@@ -207,31 +213,30 @@ function TestingSection() {
         new UI significantly reduced confusion, streamlined onboarding, and created a smoother overall experience.
       </div>
 
-      <div className="uiComparison1">
-        <img src={original1} alt="Original Settings Interface" style={{ width: "33%", border: "1px solid black" }} />
-        <img src={sketch1} alt="New Settings Interface" style={{ width: "33%", border: "1px solid black" }} />
+      <div className="uiComparison1 comparisonRow">
+        <img src={original1} alt="Original Settings Interface" />
+        <img src={new1} alt="New Settings Interface" />
       </div>
 
-      <div className="uiComparison2">
-        <img src={original6} alt="Original Practice Lobby Interface" style={{ width: "33%", border: "1px solid black" }} />
-        <img src={sketch1} alt="New Practice Lobby Interface" style={{ width: "33%", border: "1px solid black" }} />
+      <div className="uiComparison2 comparisonRow">
+        <img src={original6} alt="Original Practice Lobby Interface" />
+        <img src={new2} alt="New Practice Lobby Interface" />
       </div>
 
-      <div className="uiComparison3">
-        <img src={original4} alt="Original Choose Hole Interface" style={{ width: "33%", border: "1px solid black" }} />
-        <img src={sketch1} alt="New Choose Hole Interface" style={{ width: "33%", border: "1px solid black" }} />
+      <div className="uiComparison3 comparisonRow">
+        <img src={original4} alt="Original Choose Hole Interface" />
+        <img src={new3} alt="New Choose Hole Interface" />
       </div>
 
-      <div className="uiComparison4">
-        <img src={original2} alt="Original Player Stats Interface" style={{ width: "33%", border: "1px solid black" }} />
-        <img src={sketch1} alt="New Player Stats Interface" style={{ width: "33%", border: "1px solid black" }} />
+      <div className="uiComparison4 comparisonRow">
+        <img src={original2} alt="Original Player Stats Interface" />
+        <img src={new4} alt="New Player Stats Interface" />
       </div>
 
-      <div className="uiComparison5">
-        <img src={original5} alt="Original Scoreboard Interface" style={{ width: "33%", border: "1px solid black" }} />
-        <img src={sketch1} alt="New Scoreboard Interface" style={{ width: "33%", border: "1px solid black" }} />
+      <div className="uiComparison5 comparisonRow">
+        <img src={original5} alt="Original Scoreboard Interface" />
+        <img src={new6} alt="New Scoreboard Interface" />
       </div>
-
     </section>
   );
 }
