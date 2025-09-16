@@ -15,9 +15,17 @@ export default function Footer() {
       <div className="footer-column-b">
         <h3>Contact</h3>
         <ul>
-          <li><a href="https://www.linkedin.com/in/carol-li-zhang/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-          <li><a href="https://github.com/carolzhang010" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-          <li><a href="mailto:clz2116@columbia.edu">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/carol-li-zhang/" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+          </a></li>
+
+          <li><a href="https://github.com/carolzhang010" target="_blank" rel="noopener noreferrer">
+          GitHub
+          </a></li>
+
+          <li><a href="mailto:clz2116@columbia.edu">
+          Email
+          </a></li>
         </ul>
       </div>
 
@@ -35,7 +43,9 @@ export default function Footer() {
 
       <div className="footer-column-d">
         <h3>About</h3>
-        <a href="/Carol Li Zhang_Resume2025.pdf" download>Resume</a>
+        <a href="/Carol_Li_Zhang_Resume2025.pdf" target="_blank" rel="noopener noreferrer" >
+        Resume
+        </a>
       </div>
     </footer>
   );
