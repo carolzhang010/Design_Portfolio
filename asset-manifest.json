@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Design_Portfolio/static/css/main.423ef71f.css",
-    "main.js": "/Design_Portfolio/static/js/main.0e35fa29.js",
+    "main.css": "/Design_Portfolio/static/css/main.51eda5f3.css",
+    "main.js": "/Design_Portfolio/static/js/main.1ff56b1e.js",
     "static/media/alruwais-mockup.png": "/Design_Portfolio/static/media/alruwais-mockup.9db8637f3835b95c1471.png",
     "static/media/mockup4.png": "/Design_Portfolio/static/media/mockup4.991f84f5813a32b66a37.png",
     "static/media/mockup3.png": "/Design_Portfolio/static/media/mockup3.30e64d361d14d5759872.png",
@@ -14,9 +14,12 @@
     "static/media/ContactSketch.jpg": "/Design_Portfolio/static/media/ContactSketch.a02da5e6dddfe71dc064.jpg",
     "static/media/UIFlow.png": "/Design_Portfolio/static/media/UIFlow.84fe484f62b315b29ee3.png",
     "static/media/homepage-original.png": "/Design_Portfolio/static/media/homepage-original.20f157dae2924232fbaa.png",
+    "static/media/new-4.png": "/Design_Portfolio/static/media/new-4.41a9df8ab9cb68fdc875.png",
+    "static/media/new-5.png": "/Design_Portfolio/static/media/new-5.c87710ca4f99d4a0f03d.png",
     "static/media/ImpactSketch.jpg": "/Design_Portfolio/static/media/ImpactSketch.e9192917b8010a86ac4b.jpg",
     "static/media/original-2.png": "/Design_Portfolio/static/media/original-2.5b68c8dd6bd76b7665c6.png",
     "static/media/crackd-homepage.png": "/Design_Portfolio/static/media/crackd-homepage.48c4cd63d00a0e1c869e.png",
+    "static/media/new-6.png": "/Design_Portfolio/static/media/new-6.01e6c8cd9c034dc148eb.png",
     "static/media/crackdmultihumor.png": "/Design_Portfolio/static/media/crackdmultihumor.bfac32947f967c4bf1d8.png",
     "static/media/DISCIN_Mockup1.jpg": "/Design_Portfolio/static/media/DISCIN_Mockup1.4839e6c49b6eaa524ea5.jpg",
     "static/media/original-5.png": "/Design_Portfolio/static/media/original-5.68076092492a495dba80.png",
@@ -25,7 +28,10 @@
     "static/media/VolunteerSketch.jpg": "/Design_Portfolio/static/media/VolunteerSketch.e155f076ccdaaba20234.jpg",
     "static/media/original-1.png": "/Design_Portfolio/static/media/original-1.2e0c68a3ef1249f6913b.png",
     "static/media/sketch2.jpg": "/Design_Portfolio/static/media/sketch2.5cdc60a33ad051cec436.jpg",
+    "static/media/new-3.png": "/Design_Portfolio/static/media/new-3.5679d7553d74d551e5e9.png",
+    "static/media/new-1.png": "/Design_Portfolio/static/media/new-1.43bbf9ea85c24307ca09.png",
     "static/media/sketch3.jpg": "/Design_Portfolio/static/media/sketch3.87f3b31419c5b1791dff.jpg",
+    "static/media/new-2.png": "/Design_Portfolio/static/media/new-2.4516f83de17fef39d8c8.png",
     "static/media/sketch1.jpg": "/Design_Portfolio/static/media/sketch1.fbf2499c653db48c41cb.jpg",
     "static/media/multihumorintropage.png": "/Design_Portfolio/static/media/multihumorintropage.fa4467207b1b6a6a07d0.png",
     "static/media/DISCIN_CoursePreview.jpg": "/Design_Portfolio/static/media/DISCIN_CoursePreview.1353452d5a3e3fd83826.jpg",
@@ -54,11 +60,11 @@
     "static/media/CR.png": "/Design_Portfolio/static/media/CR.08f66d72f654c87bb831.png",
     "static/media/StarcodeLogo.png": "/Design_Portfolio/static/media/StarcodeLogo.da1f26472e0bbb182766.png",
     "index.html": "/Design_Portfolio/index.html",
-    "main.423ef71f.css.map": "/Design_Portfolio/static/css/main.423ef71f.css.map",
-    "main.0e35fa29.js.map": "/Design_Portfolio/static/js/main.0e35fa29.js.map"
+    "main.51eda5f3.css.map": "/Design_Portfolio/static/css/main.51eda5f3.css.map",
+    "main.1ff56b1e.js.map": "/Design_Portfolio/static/js/main.1ff56b1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.423ef71f.css",
-    "static/js/main.0e35fa29.js"
+    "static/css/main.51eda5f3.css",
+    "static/js/main.1ff56b1e.js"
   ]
 }
